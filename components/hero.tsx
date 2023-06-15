@@ -1,3 +1,7 @@
+"use client";
+
+import {Button} from "@/components/button";
+
 export const Hero = () => {
     return (
         <div className="hero">
@@ -9,6 +13,10 @@ export const Hero = () => {
                 <p className="hero__subtitle">
                     Streamline your car rental experience with our effortless booking process.
                 </p>
+                <Button
+                    title="Explore cars"
+                    containerStyle="bg-primary-blue text-white rounded-full mt-10"
+                />
             </div>
         </div>
     )
