@@ -1,2 +1,5 @@
 import {Hero} from "@/components/hero";
-export {Hero}
+import {Button} from "@/components/button";
+import {Navbar} from "@/components/navbar";
+
+export {Button, Hero,  Navbar}
