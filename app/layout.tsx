@@ -1,5 +1,5 @@
 import './globals.css'
-import {Navbar} from "@/components";
+import {Footer, Navbar} from "@/components";
 import {ReactNode} from "react";
 
 export const metadata = {
@@ -13,6 +13,7 @@ export default function RootLayout({children,}: { children: ReactNode }) {
         <body className="relative">
         <Navbar/>
         {children}
+        <Footer />
         </body>
         </html>
     )
