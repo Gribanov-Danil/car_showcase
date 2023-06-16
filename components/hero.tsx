@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/button";
+import {Button} from "@/components/button";
 import Image from "next/image";
 import HeroImg from "../public/hero.png"
 
@@ -23,8 +23,9 @@ export const Hero = () => {
             <div className="hero__image-container">
                 <div className="hero__image">
                     <Image src={HeroImg} alt="hero" fill className="object-contain"/>
-                    <div className="hero__image-overlay"></div>
                 </div>
+                <div className="hero__image-overlay"></div>
+
             </div>
         </div>
     )
